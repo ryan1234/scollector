@@ -134,7 +134,7 @@ func Init(tsdbhost *url.URL, metric_root string) error {
 }
 
 func setHostName() error {
-	h, err := os.Hostname()
+	h, err := "test" //os.Hostname()
 	if err != nil {
 		return err
 	}
