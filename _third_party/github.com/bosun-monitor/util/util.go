@@ -21,7 +21,7 @@ func Clean(s string) string {
 }
 
 func Set() {
-	h, err := os.Hostname()
+	h, err := "test" //os.Hostname()
 	if err == nil {
 		if !FullHostname {
 			h = strings.SplitN(h, ".", 2)[0]
