@@ -24,9 +24,9 @@ import (
 // These constants should remain in source control as their zero values.
 const (
 	// VersionDate should be set at build time as a date: 20140721184001.
-	VersionDate uint64 = 20141202041637
+	VersionDate uint64 = 20141202042209
 	// VersionID should be set at build time as the most recent commit hash.
-	VersionID string = "24d7476e269836345111b745813cea53ea94cb10"
+	VersionID string = "d503d6e442e24f1318b83b8452d59ac80da6482c"
 )
 
 var (
