@@ -19,10 +19,3 @@ for GOOS in windows linux darwin; do
 		go build -o tmp/scollector-$GOOS-$GOARCH$EXT
 	done
 done
-
-git checkout main.go
-git checkout gh-pages
-cp tmp/* .
-rm -rf tmp
-rm -rf Gemfile*
-rm -rf _site
