@@ -21,7 +21,7 @@ func Clean(s string) string {
 }
 
 func Set() {
-	Printf("%s", os.Hostnaame())
+	slog.Infoln("Hostname", os.Hostname())
 	h, err := os.Hostname()
 	if err == nil {
 		if !FullHostname {
